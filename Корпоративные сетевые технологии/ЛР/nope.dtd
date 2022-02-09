@@ -1,0 +1,10 @@
+<!ELEMENT film (DVD, BD)>
+<!ELEMENT DVD (название, год, страна, режиссер)>
+<!ELEMENT название (#PCDATA)>
+<!ELEMENT страна (#PCDATA)>
+<!ELEMENT режиссер (#PCDATA)>
+<!ATTLIST DVD жанр CDATA #REQUIRED>
+<!ATTLIST DVD год CDATA #REQUIRED>
+
+
+
